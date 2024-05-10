@@ -1,0 +1,17 @@
+.list {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  overflow-x: scroll;
+}
+.list::-webkit-scrollbar {
+  display: none;
+}
+.list-item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+  cursor: pointer;
+}
