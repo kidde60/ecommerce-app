@@ -1,0 +1,53 @@
+.navbar .login {
+  border: 2px solid #1a1a1a;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 10px 5%;
+}
+.navbar .navstart {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  list-style: none;
+}
+
+.navbar .navstart li {
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.navstart .active {
+  border-bottom: 2px solid #1a1a1a;
+  padding-bottom: 2px;
+}
+.navbar .navend {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+}
+.navend .login {
+  border-radius: 20px;
+  font-size: 15px;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 2px 10px;
+}
+.navend .login:hover {
+  background-color: #aca6a6;
+}
+.cart {
+  position: relative;
+}
+.cart .dot {
+  position: absolute;
+  min-width: 10px;
+  min-height: 10px;
+  background-color: tomato;
+  border-radius: 5px;
+  top: -5px;
+  right: 10px;
+}
